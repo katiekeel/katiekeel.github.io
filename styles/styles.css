@@ -2,14 +2,18 @@ body {
   text-align: center;
 }
 
-#blogpost {
-  padding-top: 20px;
-}
-
 #sitetitle {
   font-family: 'Ubuntu', sans-serif;
 }
 
 #name {
   font-family: 'Muli', sans-serif;
+}
+
+#blogpost {
+  padding-top: 20px;
+}
+
+#blogpost h4 a {
+  font-family: 'Inconsolata', sans-serif;
 }
