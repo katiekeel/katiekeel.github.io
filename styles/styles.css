@@ -2,6 +2,11 @@ body {
   text-align: center;
 }
 
+#headerpic {
+  height: 300px;
+  width: 100%;
+}
+
 #sitetitle {
   font-family: 'Ubuntu', sans-serif;
 }
