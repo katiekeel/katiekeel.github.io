@@ -32,3 +32,14 @@ header h2 {
   width: 1000px;
   height: auto;
 }
+
+#gifcontainer {
+  display: block;
+  text-align: center;
+}
+
+.cat-gifs {
+  display: inline-block;
+  padding-top: 10px;
+  height: 250px;
+}
