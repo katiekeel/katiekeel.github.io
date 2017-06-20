@@ -2,6 +2,11 @@ body {
   background-image: url("../assets/vertical-waves/vertical-waves.png");
 }
 
+a {
+  color: #4286f4;
+}
+
+
 header {
   text-align: center;
 }
@@ -12,6 +17,11 @@ header h1 {
 
 header h2 {
   font-family: 'Muli', sans-serif;
+}
+
+header h3 a {
+  font-family: 'Muli', sans-serif;
+  font-size: 18px;
 }
 
 .paragraphs {
