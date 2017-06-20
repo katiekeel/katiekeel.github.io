@@ -3,6 +3,10 @@ body {
   text-align: center;
 }
 
+a {
+  color: #4286f4;
+}
+
 #headerpic {
   width: 100%;
 }
