@@ -18,58 +18,73 @@
   </header>
 
   <section class="paragraphs">
-    <h3>What is object relational mapping?</h3>
-    <p><b>Object relational mapping,</b> also known as <b>ORM,</b> is how we as programmers manage and interact with the data we're using to create a website or a piece of software.
-      <ul>
-        <li>It's a way to help ourselves keep track of how our data points relate to each other in our code structure.</li>
-        <li>It helps us know how to create new relationship paths between data when we need to.</li>
-      </ul>
+    <h3 class="paragraph-title">What is object relational mapping?</h3>
+    <div class="paragraph-text">
+      <p><b>Object relational mapping,</b> also known as <b>ORM,</b> is how we as programmers manage and interact with the data we're using to create a website or a piece of software.
+        <ul>
+          <li>It's a way to help ourselves keep track of how our data points relate to each other in our code structure.</li>
+          <li>It helps us know how to create new relationship paths between data when we need to.</li>
+        </ul>
+      </p>
+  </div>
   </section>
 
   <section class="paragraphs">
-    <h3>How do you use it?</h3>
-    <p>We used this concept in our final project, Black Thursday, wherein we created a database from scratch and used our structure to run analytics on business e-commerce data.</p>
+    <h3 class="paragraph-title">How do you use it?</h3>
+    <div class="paragraph-text">
+      <p>We used this concept in our final project, Black Thursday, wherein we created a database from scratch and used our structure to run analytics on business e-commerce data.</p>
+    </div>
   </section>
 
   <section class="paragraphs">
-    <h3>What does it look like?</h3>
-    <p>The Black Thursday object relational map looks like this:</p>
+    <h3 class="paragraph-title">What does it look like?</h3>
+    <div class="paragraph-text">
+      <p>The Black Thursday object relational map looks like this:</p>
+    </div>
     <img src="../assets/black_thursday_orm.png" alt="A visual representation of an object relational map" id="blackthursdayorm">
   </section>
 
   <section class="paragraphs">
-    <h3>But what does it <i>mean?</i></h3>
-    <p>Each of the sticky note lists in the image above correspond to "repositories" containing a huge list of each type of item. Each of the items in a repository has the attributes listed within the sticky note.</p>
-    <p>You may notice, however, that not every item "knows about" every other item. For example, an invoice knows which customer and which merchant it belongs to, but not about its own invoice items.</p>
-    <p>In this project, we had to create complex data relationships so that one could, for example, find the revenue for a single merchant.</p>
-    <p>To do this, we had to:
-      <ol>
-        <li>Select an individual merchant using their id.</li>
-        <li>Collect all the invoices belonging to that merchant.</li>
-        <li>Collect all the invoice items for each of those invoices.</li>
-        <li>Calculate the total revenue for each invoice item (unit_price * quantity).</li>
-        <li>Sum all of those revenues.</li>
-      </ol>
-    <p>To accomplish each step, we had to create relationships between the items and repositories so that each item in the hierarchy "knew" about the repository above it, and could traverse the structure while also holding the relevant identifying data for the items sought.</p>
+    <h3 class="paragraph-title">But what does it <i>mean?</i></h3>
+    <div class="paragraph-text">
+      <p>Each of the sticky note lists in the image above correspond to "repositories" containing a huge list of each type of item. Each of the items in a repository has the attributes listed within the sticky note.</p>
+      <p>You may notice, however, that not every item "knows about" every other item. For example, an invoice knows which customer and which merchant it belongs to, but not about its own invoice items.</p>
+      <p>In this project, we had to create complex data relationships so that one could, for example, find the revenue for a single merchant.</p>
+      <p>To do this, we had to:
+        <ol>
+          <li>Select an individual merchant using their id.</li>
+          <li>Collect all the invoices belonging to that merchant.</li>
+          <li>Collect all the invoice items for each of those invoices.</li>
+          <li>Calculate the total revenue for each invoice item (unit_price * quantity).</li>
+          <li>Sum all of those revenues.</li>
+        </ol>
+      <p>To accomplish each step, we had to create relationships between the items and repositories so that each item in the hierarchy "knew" about the repository above it, and could traverse the structure while also holding the relevant identifying data for the items sought.</p>
+    </div>
   </section>
 
   <section class="paragraphs">
-    <h3>Is it hard?</h3>
-    <p>In a perfect world, an ORM would not be hard to use, and would help immensely in visualizing your data structure.</p>
-    <p>But in the <i>real</i> world, databases are often set up incorrectly or by non-technical users, and so there are errors in the structure that can make your task harder, regardless of how the ORM says your database is <i>supposed</i> to work.</p>
-    <p>This was the case with our project. For many of the requirements, one could in theory traverse the structure in several ways to get to the same result, but in practice, there was only one way, and that way could only be found through trial and error.</p>
+    <h3 class="paragraph-title">Is it hard?</h3>
+    <div class="paragraph-text">
+      <p>In a perfect world, an ORM would not be hard to use, and would help immensely in visualizing your data structure.</p>
+      <p>But in the <i>real</i> world, databases are often set up incorrectly or by non-technical users, and so there are errors in the structure that can make your task harder, regardless of how the ORM says your database is <i>supposed</i> to work.</p>
+      <p>This was the case with our project. For many of the requirements, one could in theory traverse the structure in several ways to get to the same result, but in practice, there was only one way, and that way could only be found through trial and error.</p>
+    </div>
   </section>
 
   <section class="paragraphs">
-    <h3>But why?</h3>
+    <h3 class="paragraph-title">But why?</h3>
     <p>¯\_(ツ)_/¯</p>
-    <p>Really, though, it was meant to help us get used to complex business requirements and navigating mission-critical structures, which will always have imperfections and quirks of their own.</p>
+    <div class="paragraph-text">
+      <p>Really, though, it was meant to help us get used to complex business requirements and navigating mission-critical structures, which will always have imperfections and quirks of their own.</p>
+    </div>
   </section>
 
   <section class="paragraphs">
-    <h3>Will I be okay?</h3>
-    <p>You'll be fine. Mod 1 is really fun and cool, and will truly help you find out if you like projammin', which I definitely do.</p>
-    <p>Thanks to Mike, Sal, and Ali for being great instructors and making sure none of us went (too) crazy.</p>
+    <h3 class="paragraph-title">Will I be okay?</h3>
+    <div class="paragraph-text">
+      <p>You'll be fine. Mod 1 is really fun and cool, and will truly help you find out if you like projammin', which I definitely do.</p>
+      <p>Thanks to Mike, Sal, and Ali for being great instructors and making sure none of us went (too) crazy.</p>
+    </div>
   </section>
 
 
